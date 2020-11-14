@@ -1,0 +1,134 @@
+<!Doctype html>
+<html>
+     <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>survey form</title>
+     <title>CSS Basics</title>
+
+     <style>
+       form{
+         
+         padding: 00px 00px;
+         margin:2px 5px;
+         background-color: rgba(37, 16, 49, 0.658);
+         height: 30%;
+         color: lavender;
+       }
+
+        body{
+      
+          font-size:14px ;
+          background-color: rgba(101, 106, 107, 0.397);
+          padding:10px 30px;
+          margin:2px 50px;
+          width: 30%; 
+          background-image: url(https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/image/jpeg/c2c30b03-7b5a-4d0e-b187-74f3c61a9ed1.jpeg)
+;         
+        }
+
+        img{
+          width:20px;
+          height:20;
+        }
+        
+
+        
+
+        input{
+          height:18px;
+          
+        }
+
+         input[type="submit"]{
+          
+           color: black;
+           background-color: springgreen;
+           height: 30px;
+           width: 150px;
+         }
+
+         textarea{
+           height: 50px;
+         }
+     
+     </style>
+  
+              
+</head>
+<body>
+  
+
+
+<h2>free codecamp survey form.</h2>
+
+<h6>thank you for taking the time to help us improve the plat form</h6>
+<form methode="post" action="traitement.php">
+  <background="C:\Users\alain\Pictures\photocv.jpg">
+
+ <p2></p><label for="Name"> Name</label><br>
+ <input type="text" id="Nom" name="Nom"><br></p>
+
+ <p3><label for ="Email">Email</label><br>
+ <input type="text" id="Email" name="Email"><br></p>
+
+ <p4><label for ="Age">Age(capital)</label><br>
+ <input type="text" id="Age" name="Age"><br></p>
+
+ <p5><label for ="Which option best describes your current robe?">Wich option best describes your current robe? </label><br>
+ <input type="text" id="Wich option best describes your current robe?" name="Wich option best describes your current robe?"><br></p>
+
+<p6><strong>Would you recommend free code camp to a friend?</strong></p>
+
+<input type="checkbox" name="sport" value="Dafinitaly" id="Dafinitaly">
+  <label for="Dafinitaly"> Dafinitaly</label><br>
+<input type="checkbox" name="sport" value="Maybe" id="Maybe">
+   <label for="Maybe"> Maybe</label><br>
+<input type="checkbox" name="sport" value="Not Sure" id="Not Sure">
+  <label for="Not Sure"> Not Sure</label><br></p>
+
+<p7><label for ="What is your favorite feature of free code camp?">What is your favorite feature of free code camp?</label><br>
+<input type="text" id="What is your favorite feature of free code camp?" name="What is your favorite feature of free code camp?"><br>
+
+<p><strong>What Would you like to see improved</strong> <em>(check all that apply)</em></p>
+
+<input type="checkbox" name="sport" value="front-end projets" id="front-end projets">
+  <label for="front-end projets"> front-end projets</label><br>
+<input type="checkbox" name="sport" value="Back-end projets" id="Back-end projets">
+   <label for="Back-end projets"> Back-end projets</label><br>
+<input type="checkbox" name="sport" value="Data visualization" id="Data visualization">
+  <label for="Data visualization"> Data visualization</label><br>
+
+  <input type="checkbox" name="sport" value="challenges" id="challenges">
+  <label for="challenges"> challenges</label><br>
+<input type="checkbox" name="sport" value="open source community" id="open source community">
+   <label for="open source community"> open source community</label><br>
+<input type="checkbox" name="sport" value="Gitter help rooms" id="Gitter help rooms">
+  <label for="Gitter help rooms"> Gitter help rooms</label><br>
+
+  <input type="checkbox" name="sport" value="Vidéo" id="Vidéo">
+  <label for="Vidéo"> Vidéo</label><br>
+<input type="checkbox" name="sport" value="City meetups" id="City meetups">
+   <label for="City meetups"> City meetups</label><br>
+<input type="checkbox" name="sport" value="Wiki" id="wiki">
+  <label for="Wiki"> Wiki</label><br>
+
+  <input type="checkbox" name="sport" value="Forum" id="Forum">
+  <label for="Forum"> Forum</label><br>
+<input type="checkbox" name="sport" value="Additional courses" id="Additional courses">
+   <label for="Additional course"> Additional course</label><br></p>
+
+
+
+<p><label for="prez">Any comments or Suggestion?</label><br>
+<textarea id="prez"></textarea><br></p>
+
+ <p9><input type="submit" value="Submit"><br></p9>
+
+
+  
+
+</form>
+</body>
+</html>
